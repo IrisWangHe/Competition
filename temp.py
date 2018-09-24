@@ -2,6 +2,7 @@ from numpy import *;#导入numpy的库函数
 import numpy as np; #这个方式使用numpy的函数时，需要以np.开头。
 import csv
 
+#wanghe
 def direction(last_position,position,car_id):
     direction=0
     deta_y=position[0]-last_position[car_id][0]
